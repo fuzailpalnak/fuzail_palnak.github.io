@@ -8,12 +8,10 @@ redirect_from:
   - /research
 ---
 
-![LRS](/images/lrs.webp){: style="float: right; padding-top: 0.5em; max-width: 40%;"}
+[comment]: <> (![LRS]&#40;/images/lrs.webp&#41;{: style="float: right; padding-top: 0.5em; max-width: 40%;"})
 
-I'm a senior scientist coordinating the __Learning, Recognition & Surveillance (LRS)__ workgroup at the __Institute of Computer Graphics & Vision (ICG)__, Graz University of Technology.
-
-In 2018, I finished my PhD on visual object tracking - leveraging context information for generic single object tracking, as well as multi-object tracking algorithms.
-Currently, my research interests include (multiple) object tracking and detection in both 2D and 3D, human behavior analysis, anomaly detection and video analysis in general.
+I'm a computer vision enthusiast with research interests in
+(multiple) object tracking and detection in both 2D and 3D, image segmentation and optimisation techniques.
 
 <h2>Selected Projects{% include scroll_top %}</h2>
 To be completed...
@@ -31,37 +29,4 @@ add project overview
 * **OCG Best Paper Award** by the [Austrian Computer Society (&Ouml;sterreichische Computer Gesellschaft)](https://www.ocg.at/), 2013
 * Scholarship for hardware acquisition based on study performance granted by the [Faculty of Computer Science](https://www.tugraz.at/fakultaeten/csbme/home/), Graz University of Technology, 2012
 * **Academic excellence scholarships** from the [Faculty of Computer Science](https://www.tugraz.at/fakultaeten/csbme/home/), Graz University of Technology, 2008, 2009, 2010 and 2011
-
-
-<h2>Professional Services{% include scroll_top %}</h2>
-<!-- Been there, done that -->
-Reviewing for conferences (since 2015), including:
-* [IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)](https://ieeexplore.ieee.org/xpl/conhome/1001809/all-proceedings)
-* [European Conference on Computer Vision (ECCV)](https://link.springer.com/conference/eccv)
-* [International Conference on Computer Vision (ICCV)](https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings)
-* [British Machine Vision Conference (BMVC)](https://britishmachinevisionassociation.github.io/bmvc)
-* [IEEE Winter Conference on Applications of Computer Vision (WACV)](https://ieeexplore.ieee.org/xpl/conhome/1000040/all-proceedings)
-* [Visual Object Tracking challenge (VOT) Workshop](https://www.votchallenge.net/)
-* [IEEE International Conference on Robotics and Automation (ICRA)](https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings)
-* [International Symposium on Image and Signal Processing and Analysis (ISPA)](https://ieeexplore.ieee.org/xpl/conhome/1000347/all-proceedings)
-* [Computer Vision Winter Workshop (CVWW)](https://cvww2020.vicos.si/about/)
-* [Workshop of the Austrian Association for Pattern Recognition (OAGM/AAPR)](https://aapr.at/?page_id=43)
-* [ACM SIGGRAPH Asia](https://dblp.org/db/conf/siggrapha/index.html)
-
-Reviewing for journals (since 2014), including:
-* [IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
-* [IEEE Transactions on Image Processing (TIP)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)
-* [IEEE Transactions on Neural Networks and Learning Systems (TNNLS)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385)
-* [IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76)
-* [IEEE Signal Processing Letters (SP LETTERS)](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters)
-* [IEEE Transactions on Multimedia (TMM)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046)
-* [Elsevier Pattern Recognition (PR)](https://www.journals.elsevier.com/pattern-recognition)
-* [Elsevier Computer Vision and Image Understanding (CVIU)](https://www.journals.elsevier.com/computer-vision-and-image-understanding)
-* [Elsevier Pattern Recognition Letters (PR LETTERS)](https://www.journals.elsevier.com/pattern-recognition-letters)
-* [Elsevier Image and Vision Computing (IMAVIS)](https://www.journals.elsevier.com/image-and-vision-computing)
-* [Elsevier Journal of Visual Communication and Image Representation (JVCI)](https://www.journals.elsevier.com/journal-of-visual-communication-and-image-representation)
-* [Systems Science & Control Engineering (TSSC)](https://www.tandfonline.com/action/journalInformation?journalCode=tssc20)
-* [International Journal of Distributed Sensor Networks (IJDSN)](https://journals.sagepub.com/home/dsn)
-* [Computational Intelligence and Neuroscience (CIN)](https://www.hindawi.com/journals/cin)
-* [IET Computer Vision](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4159597)
 

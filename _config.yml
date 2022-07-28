@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "de-AT"
-title                    : "Horst Possegger"
+locale                   : "en-US"
+title                    : "Fuzail Palnak"
 title_separator          : "-"
 name                     : 
 description              : 
-url                      : https://snototter.github.io # the base hostname & protocol
+url                      : https://fuzailpalnak.github.io/ # the base hostname & protocol
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "snototter/snototter.github.io"
+repository               : "fuzailpalnak/fuzailpalnak.github.io"
 
 # SEO Related
 google_site_verification :
@@ -39,39 +39,39 @@ social:
 
 # Analytics
 analytics:
-  provider               :  false #google-universal" # false (default), "google", "google-universal", "custom"
-#  google:
-#    tracking_id          : "UA-183955667-1"
+  provider               :  google-universal #google-universal" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-158202605-1"
 
 
 # Site Author
 author:
   name             : 
   avatar           : "brick.webp"
-  bio              : "Computer Vision by profession, Tinkering by passion"
+  bio              : "Software Engineer and Computer Vision Enthusiast"
   location         : 
   maplocation      : https://www.google.com/maps/place/Graz
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=iWPrl3wAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=xTmdJ_MAAAAJ&hl=en"
   email            :
-  researchgate     : "https://www.researchgate.net/profile/Horst_Possegger"
-  dblp             : "https://dblp.uni-trier.de/pid/135/4917.html"
+  researchgate     :
+  dblp             :
 
   uri              :
-  github           : "snototter"
+  github           : "fuzailpalnak"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  linkedin         : "horst-possegger-818b80b9"
-  orcid            : "https://orcid.org/0000-0002-5427-9938"
-  semanticscholar  : "https://www.semanticscholar.org/author/Horst-Possegger/1720811"
-  stackoverflow    :
+  linkedin         : "fuzail-palnak-b4962994"
+  orcid            :
+  semanticscholar  :
+  stackoverflow    : "https://stackoverflow.com/users/7984359/thefifthjack005"
   steam            :
   twitter          : 
   xing             :
-  youtube          : "ldw"
-  reddit           : "https://www.reddit.com/user/sarcastic-snot-otter"
+  youtube          :
+  reddit           :
   wikipedia        :
-  vimeo            : "https://vimeo.com/snototter"
+  vimeo            :
 
 
 # Reading Files

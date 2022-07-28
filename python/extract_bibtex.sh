@@ -11,5 +11,4 @@ fi
 
 source ${venv}/bin/activate
 python extract_bibtex.py theses.bib ../_theses
-python extract_bibtex.py pubs-other.bib ../_pubs_workshops
 python extract_bibtex.py pubs-reviewed.bib ../_pubs

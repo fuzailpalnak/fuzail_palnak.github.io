@@ -8,8 +8,7 @@ author_profile: true
 {% include base_path %}
 {% assign author = site.author %}
 
-Here you'll find a list of my publications, including [conference & journal papers](#cjproc), contributions to [tracking challenges](#chg), and [my theses](#theses).
-
+Here you'll find a list of my publications, including [conference & journal papers](#cjproc)
 
 <table class="iconsummary" align="center">
   <tr>
@@ -69,23 +68,37 @@ Find min/max publication year
 </table>
 {% endcomment %}
 
-<h2 id="chg" class="pubheader">Visual Object Tracking Challenges{% include scroll_top %}</h2>
-<table class="pubtable">
-  <tbody>
-    {% for pub in site.pubs_workshops reversed %}
-      {% include pubentry.html %}
-    {% endfor %}
-  </tbody>
-</table>
+[comment]: <> (<h2 id="chg" class="pubheader">Visual Object Tracking Challenges{% include scroll_top %}</h2>)
+
+[comment]: <> (<table class="pubtable">)
+
+[comment]: <> (  <tbody>)
+
+[comment]: <> (    {% for pub in site.pubs_workshops reversed %})
+
+[comment]: <> (      {% include pubentry.html %})
+
+[comment]: <> (    {% endfor %})
+
+[comment]: <> (  </tbody>)
+
+[comment]: <> (</table>)
 
 
 <h2 id="theses" class="pubheader">Theses{% include scroll_top %}</h2>
+
 <table class="pubtable" id="thesistable">
+
   <tbody>
+
     {% for pub in site.theses reversed %}
+
       {% include pubentry.html %}
+
     {% endfor %}
+
   </tbody>
+
 </table>
 
 

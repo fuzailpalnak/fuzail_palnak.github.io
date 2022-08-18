@@ -10,6 +10,8 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+gem "tzinfo-data"
+gem 'wdm', '>= 0.1.0'
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
@@ -25,3 +27,5 @@ gem "github-pages", group: :jekyll_plugins
 #  gem 'jekyll-sitemap'
 #  gem 'hawkins'
 #end
+
+gem "webrick", "~> 1.7"

@@ -9,12 +9,13 @@ import sys
 from functools import cmp_to_key
 from pybtex.database.input import bibtex
 
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('bibtex_file', action='store', type=str,
-        help='Path to input bibtex file.')
+                        help='Path to input bibtex file.')
     parser.add_argument('output_folder', action='store', type=str,
-        help='Output folder')
+                        help='Output folder')
     return parser.parse_args()
 
 
@@ -128,6 +129,7 @@ html_escape_entities = [
     ('--', '&ndash;')
 ]
 
+
 def html_escape(text):
     """Replace latex special characters with html entities."""
     for search, repl in html_escape_entities:
@@ -137,6 +139,7 @@ def html_escape(text):
 
 def author_name(p, abbreviate):
     """Output the pybtex.Person's name"""
+
     def abbrev_first_name(fn):
         if abbreviate:
             # Check if name starts with special character
@@ -146,6 +149,7 @@ def author_name(p, abbreviate):
             return fn[:1] + '.'
         else:
             return fn
+
     tokens = [abbrev_first_name(fn) for fn in p.first_names] + p.middle_names + p.prelast_names + p.last_names
     return ' '.join(tokens)
 
@@ -157,7 +161,7 @@ def extract_authors(persons, max_num, delimiter=', ', others='et al.', abbreviat
         return delimiter.join(names)
     else:
         return delimiter.join(names[:max_num] + [others])
-    
+
 
 def dump_markdown(output_folder, entry):
     """Save the parsed bibtex entry to the jekyll collection folder."""
@@ -168,7 +172,7 @@ def dump_markdown(output_folder, entry):
     rank = pub_rank(entry)
     tiebraker = entry.fields['tiebraker'] if 'tiebraker' in entry.fields else 0
     filename = os.path.join(output_folder, f'{year}-{rank:02d}{tiebraker}-{key}.md')
-    title = html_escape(entry.fields["title"].replace("{", "").replace("}","").replace("\\",""))
+    title = html_escape(entry.fields["title"].replace("{", "").replace("}", "").replace("\\", ""))
     bib_newline = '<br/>&nbsp;&nbsp;'
     bib_venue = None
 
@@ -194,11 +198,13 @@ def dump_markdown(output_folder, entry):
     elif entry.type in ['inproceedings']:
         venue = 'In ' + entry.fields['booktitle']
         tmp = f' ({entry.fields["venue_abbreviation"]})' if 'venue_abbreviation' in entry.fields else ''
-        bib_venue = 'booktitle = &#123;' + bib_escape(entry.fields['booktitle'].replace("{", "").replace("}","")) + tmp + '&#125;,'
+        bib_venue = 'booktitle = &#123;' + bib_escape(
+            entry.fields['booktitle'].replace("{", "").replace("}", "")) + tmp + '&#125;,'
     elif entry.type in ['article']:
         venue = entry.fields['journal']
         tmp = f' ({entry.fields["venue_abbreviation"]})' if 'venue_abbreviation' in entry.fields else ''
-        bib_venue = 'journal = &#123;' + bib_escape(entry.fields['journal'].replace("{", "").replace("}","")) + tmp + '&#125;,'
+        bib_venue = 'journal = &#123;' + bib_escape(
+            entry.fields['journal'].replace("{", "").replace("}", "")) + tmp + '&#125;,'
 
         if 'volume' in entry.fields:
             venue_extra = entry.fields['volume']
@@ -220,7 +226,7 @@ def dump_markdown(output_folder, entry):
     venue = html_escape(venue)
     venue_extra = None if venue_extra is None else html_escape(venue_extra)
     md += f'venue: "{venue}"\n'
-    
+
     # Add download/further links
     if 'venue_url' in entry.fields:
         md += f'venue_url: {entry.fields["venue_url"]}\n'
@@ -261,9 +267,9 @@ def dump_markdown(output_folder, entry):
         md += f'teaser_img: {entry.fields["teaser_img"]}\n'
     # BibTeX
     md += f'bib_id: {key}\n'
-    bib_title = bib_escape(entry.fields["title"].replace("{", "").replace("}",""))
+    bib_title = bib_escape(entry.fields["title"].replace("{", "").replace("}", ""))
     bib_authors = bib_escape(extract_authors(entry.persons['author'], max_author_display,
-                             delimiter=' and ', others='others', abbreviate=False))
+                                             delimiter=' and ', others='others', abbreviate=False))
     # Cannot split this string across multiple lines (or jekyll will render additional, unwanted whitespace)
     md += f"""bib_entry: "@{entry.type}&#123;{key},{bib_newline}title = &#123;{bib_title}&#125;,{bib_newline}author = &#123;{bib_authors}&#125;,{bib_newline}{bib_venue}{bib_newline}year = &#123;{year}&#125;<br/>&#125;"\n"""
 
@@ -280,18 +286,18 @@ def pub_rank(entry):
     if 'venue_abbreviation' in entry.fields:
         venues = {
             'TPAMI': 90,
-            'CVPR' : 80,
-            'ICCV' : 80,
-            'ECCV' : 80,
-            'BMVC' : 70,
+            'CVPR': 80,
+            'ICCV': 79,
+            'ECCV': 79,
+            'BMVC': 70,
             'ICIAP': 70,
-            'ACCV' : 60,
-            'WACV' : 60,
-            'ICIP' : 60,
-            'AVSS' : 50,
-            'TMM'  : 40,
-            'CVWW' : 10,
-            'ITSC' : 10
+            'ACCV': 60,
+            'WACV': 60,
+            'ICIP': 60,
+            'AVSS': 50,
+            'TMM': 40,
+            'CVWW': 10,
+            'ITSC': 10
         }
         v = entry.fields['venue_abbreviation']
         if v in venues:
@@ -330,7 +336,7 @@ def parse_bibtex():
 
     if not os.path.exists(args.output_folder):
         os.makedirs(args.output_folder)
-    #for k in sorted_keys:
+    # for k in sorted_keys:
     for k in bibtex_data.entries:
         dump_markdown(args.output_folder, bibtex_data.entries[k])
 

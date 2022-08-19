@@ -13,18 +13,34 @@ redirect_from:
 I'm a computer vision enthusiast with research interests in
 object tracking and detection in both 2D and 3D, image segmentation and optimisation techniques.
 
-<h2>Selected Projects{% include scroll_top %}</h2>
-My project highlights and overview
 
-1. <h3>Image Segmentation from satellite imagery</h3>
+<h2>Project highlights and overview{% include scroll_top %}</h2>
 
-[comment]: <> (    dfiov)
-2. <h3>Computer vision assisted real-time map making</h3>
+1. <h3 style="text-align:left;">
+    Image Segmentation from satellite imagery
+    <span style="float:right;">
+        Jan 2017 - July 2019
+    </span> </h3>
+   
+    The objective of the project was to extract map features from satellite imagery, where I primarily worked on extracting building
+    footprint from satellite imagery with the goal to achieve a model that could perform 
+    instance segmentation, or boundary separation and was sufficiently generalized to identify small and large buildings. 
 
-[comment]: <> (    dfoef)
+    We experimented with several criterion functions in order to accomplish boundary separation, and dual scale training was used to 
+    learn the representation of small and large buildings. We tried this setup on Inria dataset and achieved an IOU score of **76.98** (*"the score reported is the result of the submission made in 2019"*).
+
+2. <h3 style="text-align:left;">
+    Computer vision assisted real-time map making
+    <span style="float:right;">
+        May 2019 - Jan 2020
+    </span> </h3>
+    
+    The goal of the project was to design and develop an efficient application that could bridge the gap between 
+existing map-making tools and computer vision trained models. The application's main objective was to automate as much of the map-making process as possible.
+
+
 3. <h3>Object detection and tracking in changing weather conditions</h3>
-
-[comment]: <> (    dfmopjf)
+    TODO
 
 {% comment %}
 add research highlights (?)
@@ -33,7 +49,42 @@ add project overview
 
 
 <h2>Awards & Honors{% include scroll_top %}</h2>
-* **Most innovative project at TomTom innovation Day**. 2018
+* **Most innovative project at TomTom innovation Day**, 2018
 * Winner of the **TomTom Developers Day** - for providing a solution on tackling the problem of fake news on social media, 2018
 * Winner of the **TomTom 24 hour Hackathon** - for building a smart city guide mobile app, 2018
 * Winner of the **TomTom 24 hour Hackathon**, 2017
+
+<h2>Updates{% include scroll_top %}</h2>
+**[Aug 2022]** - Joined the Institute of Computer Graphics and Vision as a student researcher\
+**[Oct 2021]** - Started my masters at Technische Universität Graz\
+**[Jan 2017]** - Joined R&D team TomTom India 
+
+[comment]: <> (<p style="text-align:left;">)
+
+[comment]: <> (    <strong>[Aug 2022] - </strong> )
+
+[comment]: <> (    <span>)
+
+[comment]: <> (        Joined the Institute of Computer Graphics and Vision as a student researcher )
+
+[comment]: <> (    </span> </p>)
+
+[comment]: <> (<p style="text-align:left;">)
+
+[comment]: <> (    <strong>[Oct 2021] - </strong> )
+
+[comment]: <> (    <span>)
+
+[comment]: <> (        Started my masters at Technische Universität Graz)
+
+[comment]: <> (    </span> </p>)
+
+[comment]: <> (<p style="text-align:left;">)
+
+[comment]: <> (    <strong>[Jan 2017] - </strong> )
+
+[comment]: <> (    <span>)
+
+[comment]: <> (        Joined R&D team TomTom India)
+
+[comment]: <> (    </span> </p>)

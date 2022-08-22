@@ -55,36 +55,6 @@ add project overview
 * Winner of the **TomTom 24 hour Hackathon**, 2017
 
 <h2>Updates{% include scroll_top %}</h2>
-**[Aug 2022]** - Joined the Institute of Computer Graphics and Vision as a student researcher\
-**[Oct 2021]** - Started my masters at Technische Universität Graz\
-**[Jan 2017]** - Joined R&D team TomTom India 
-
-[comment]: <> (<p style="text-align:left;">)
-
-[comment]: <> (    <strong>[Aug 2022] - </strong> )
-
-[comment]: <> (    <span>)
-
-[comment]: <> (        Joined the Institute of Computer Graphics and Vision as a student researcher )
-
-[comment]: <> (    </span> </p>)
-
-[comment]: <> (<p style="text-align:left;">)
-
-[comment]: <> (    <strong>[Oct 2021] - </strong> )
-
-[comment]: <> (    <span>)
-
-[comment]: <> (        Started my masters at Technische Universität Graz)
-
-[comment]: <> (    </span> </p>)
-
-[comment]: <> (<p style="text-align:left;">)
-
-[comment]: <> (    <strong>[Jan 2017] - </strong> )
-
-[comment]: <> (    <span>)
-
-[comment]: <> (        Joined R&D team TomTom India)
-
-[comment]: <> (    </span> </p>)
+**[Aug 2022]** Joined as a student researcher at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home/) \
+**[Oct 2021]** Started my masters at [Technische Universität Graz](https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/computer-science/#c328188) \
+**[Jan 2017]** Joined R&D team, TomTom India 

@@ -47,7 +47,7 @@ analytics:
 # Site Author
 author:
   name             : 
-  avatar           : "profile.webp"
+  avatar           : "profile.png"
   bio              : "Software Engineer and Computer Vision Enthusiast"
   location         : 
   maplocation      : https://www.google.com/maps/place/Graz

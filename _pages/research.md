@@ -11,7 +11,7 @@ redirect_from:
 [comment]: <> (![LRS]&#40;/images/lrs.webp&#41;{: style="float: right; padding-top: 0.5em; max-width: 40%;"})
 
 I'm a computer vision enthusiast with research interests in
-object tracking and detection in both 2D and 3D, image segmentation and optimisation techniques.
+2D and 3D object tracking and detection, image-segmentation and AR/VR. 
 
 
 <h2>Project highlights and overview{% include scroll_top %}</h2>
@@ -56,5 +56,6 @@ add project overview
 
 <h2>Updates{% include scroll_top %}</h2>
 **[Aug 2022]** Joined as a student researcher at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home/) \
+**[Nov 2021]** Joined as a Software Researcher at [Joanneum Research](https://www.joanneum.at/en/digital) \
 **[Oct 2021]** Started my masters at [Technische Universität Graz](https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/computer-science/#c328188) \
-**[Jan 2017]** Joined R&D team, TomTom India 
+**[Jan 2017]** Joined R&D team, [TomTom, India](https://www.tomtom.com/company/) 

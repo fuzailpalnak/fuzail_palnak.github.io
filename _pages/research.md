@@ -22,22 +22,17 @@ I'm a computer vision enthusiast with research interests in
         Jan 2017 - July 2019
     </span> </h3>
    
-    The objective of the project was to extract map features from satellite imagery, where I primarily worked on extracting building
-    footprint from satellite imagery with the goal to achieve a model that could perform 
-    instance segmentation, or boundary separation and was sufficiently generalized to identify small and large buildings. 
-
-    We experimented with several criterion functions in order to accomplish boundary separation, and dual scale training was used to 
-    learn the representation of small and large buildings. We tried this setup on Inria dataset and achieved an IOU score of **76.98** (*"the score reported is the result of the submission made in 2019"*).
-
+    The objective of the project was to extract map features from satellite imagery, with a primary focus on extracting building footprints. The goal was to achieve a model that could perform instance segmentation, separating building boundaries, and be sufficiently generalized to identify both small and large buildings.
+    <br />
+    Dual-scale training was used to learn the representation of both small and large buildings. This setup was tried on the Inria dataset and an Intersection over Union (IOU) score of **76.98** (*"the score reported is the result of the submission made in 2019"*).
+   
 2. <h3 style="text-align:left;">
     Computer vision assisted real-time map making
     <span style="float:right;">
         May 2019 - Jan 2020
     </span> </h3>
     
-    The goal of the project was to design and develop an efficient application that could bridge the gap between 
-existing map-making tools and computer vision trained models. The application's main objective was to automate as much of the map-making process as possible.
-
+    The aim of the project was to create an efficient application that could link existing map-making tools with computer vision-trained models. The application aimed to automate as much of the mapping process as possible to streamline the map-making process.
 
 3. <h3>Object detection and tracking in changing weather conditions</h3>
     TODO

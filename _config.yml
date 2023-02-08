@@ -16,7 +16,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fuzailpalnak/fuzailpalnak.github.io"
 
 # SEO Related
-google_site_verification : googleb9fdaab45e005d02.html
+google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -39,9 +39,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" #google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-158202605-1"
+    tracking_id          :
 
 
 # Site Author

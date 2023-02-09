@@ -1,7 +1,9 @@
 ---
 type: "software"
 title: "image-fragment"
-description: "Any extent is a set of smaller fragment extent , which can be as small as 1 x 1 to the size of the extent given. This library will section the given extent in to specified smaller fragment extent."
+description: "A Python and GIS library for dividing images into multiple fragments, with the ability to re-merge
+fragments back to the original image. Allows for easy manipulation and processing of large images in GIS
+applications."
 download_url: "https://pypi.org/project/image-fragment/"
 badge: "https://img.shields.io/pypi/v/image-fragment"
 show: true

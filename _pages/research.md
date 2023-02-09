@@ -22,8 +22,7 @@ I'm a computer vision enthusiast with research interests in
         Jan 2017 - July 2019
     </span> </h3>
    
-    The objective of the project was to extract map features from satellite imagery, with a primary focus on extracting building footprints. The goal was to achieve a model that could perform instance segmentation, separating building boundaries, and be sufficiently generalized to identify both small and large buildings.
-    <br />
+    The objective of the project was to extract map features from satellite imagery, with a primary focus on extracting building footprints. The goal was to achieve a model that could perform instance segmentation, separating building boundaries, and be sufficiently generalized to identify both small and large buildings.<br></p> \
     Dual-scale training was used to learn the representation of both small and large buildings. This setup was tried on the Inria dataset and an Intersection over Union (IOU) score of **76.98** (*"the score reported is the result of the submission made in 2019"*).
    
 2. <h3 style="text-align:left;">

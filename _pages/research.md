@@ -33,13 +33,20 @@ I'm a computer vision enthusiast with research interests in
     
     The aim of the project was to create an efficient application that could link existing map-making tools with computer vision-trained models. The application aimed to automate as much of the mapping process as possible to streamline the map-making process.
 
-3. <h3>Object detection and tracking in changing weather conditions</h3>
-    TODO
+3. <h3 style="text-align:left;">
+   Object detection and tracking in changing weather conditions
+    <span style="float:right;">
+        Oct 2022 - Apr 2023
+    </span> </h3>
 
-{% comment %}
-add research highlights (?)
-add project overview
-{% endcomment %}
+    The aim of the project was to address the challenges faced by computer vision systems in detecting and tracking objects under diverse weather conditions, specifically focusing on tracking cars from a stationary camera mounted on the road. The primary objective was to evaluate the impact of various weather scenarios on existing detection-tracking architectures.\
+   &nbsp;<br>
+   **Project Highlights:**
+   1. Exploring the difficulties associated with accurately detecting and tracking objects in changing weather conditions.
+   2. Evaluating the performance of a selected tracking by detection architecture under different weather scenarios. 
+   3. Identifying limitations of model that performs well in clear weather but struggle in severe weather conditions. 
+   4. Conducting a comparative analysis between selected tracking by detection based and joint detection-tracking approaches.
+      
 
 
 <h2>Awards & Honors{% include scroll_top %}</h2>
@@ -49,7 +56,7 @@ add project overview
 * Winner of the **TomTom 24 hour Hackathon**, 2017
 
 <h2>Updates{% include scroll_top %}</h2>
-**[Aug 2022]** Joined as a student researcher at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home/) \
-**[Nov 2021]** Joined as a Software Researcher at [Joanneum Research](https://www.joanneum.at/en/digital) \
-**[Oct 2021]** Started my masters at [Technische Universität Graz](https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/computer-science/#c328188) \
-**[Jan 2017]** Joined R&D team, [TomTom, India](https://www.tomtom.com/company/) 
+**[2022-2023]** Joined as a student researcher at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home/) \
+**[2021-present]** Joined as a Software Researcher at [Joanneum Research](https://www.joanneum.at/en/digital) \
+**[2021-present]** Started my masters at [Technische Universität Graz](https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/masters-degree-programmes/computer-science/#c328188) \
+**[2017-2021]** Joined R&D team, [TomTom, India](https://www.tomtom.com/company/) 

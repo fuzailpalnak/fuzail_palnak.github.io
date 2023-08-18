@@ -62,23 +62,23 @@
   <td class="pubinfo">
   {% endif %}
     <p><b>{{ pub.title }}</b></p>
-    <p>{{ pub.authors }}{% if pub.thesis_type %} - {{ pub.thesis_type }}{% endif %}</p>
-    {% if pub.venue %}
-      <p>
-      {% if pub.venue_abbrev %}
-        {% assign venue_html = pub.venue | append: " (<b>" | append: pub.venue_abbrev | append: "</b>)" %}
-      {% else %}
-        {% assign venue_html = pub.venue %}
-      {% endif %}
-      {% if pub.venue_extra %}
-        {% assign venue_html = venue_html | append: " " | append: pub.venue_extra %}
-      {% endif %}
-      {% if pub.venue_url %}
-        <a href="{{ pub.venue_url }}"><i>{{ venue_html }}</i></a>, {{ pub.year }}.
-      {% else %}
-        <i>{{ venue_html }}</i>, {{ pub.year }}.
-      {% endif %}
-      </p>
+<!--    <p>{{ pub.authors }}{% if pub.thesis_type %} - {{ pub.thesis_type }}{% endif %}</p>-->
+<!--    {% if pub.venue %}-->
+<!--      <p>-->
+<!--      {% if pub.venue_abbrev %}-->
+<!--        {% assign venue_html = pub.venue | append: " (<b>" | append: pub.venue_abbrev | append: "</b>)" %}-->
+<!--      {% else %}-->
+<!--        {% assign venue_html = pub.venue %}-->
+<!--      {% endif %}-->
+<!--      {% if pub.venue_extra %}-->
+<!--        {% assign venue_html = venue_html | append: " " | append: pub.venue_extra %}-->
+<!--      {% endif %}-->
+<!--      {% if pub.venue_url %}-->
+<!--        <a href="{{ pub.venue_url }}"><i>{{ venue_html }}</i></a>, {{ pub.year }}.-->
+<!--      {% else %}-->
+<!--        <i>{{ venue_html }}</i>, {{ pub.year }}.-->
+<!--      {% endif %}-->
+<!--      </p>-->
       {% if pub.bib_entry %}
       <span class="bibentry" id="{{ pub.bib_id }}">
         <p><b>BibTeX entry:</b></p>
